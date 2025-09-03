@@ -1,0 +1,2102 @@
+[
+    {
+        "instruction": "A field of lavender, step softly.",
+        "reason": "use a gentle trot with low vel_lim to minimize disturbance",
+        "T": 0.6,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.3
+    },
+    {
+        "instruction": "A field of sunflowers, admire but move gently.",
+        "reason": "use a gentle trot with low vel_lim to move softly",
+        "T": 0.6,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.3
+    },
+    {
+        "instruction": "canter with style",
+        "reason": "gallop with moderate T for style, moderate vel_lim",
+        "T": 0.5,
+        "gait_phase_offsets": [0.0, 0.2, 0.7, 0.5],
+        "vel_lim": 0.8
+    },
+    {
+        "instruction": "trot briskly like a coyote",
+        "reason": "trot with high vel_lim for brisk movement",
+        "T": 0.35,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 1.2
+    },
+    {
+        "instruction": "trundle along like a hippo",
+        "reason": "slow and heavy trot, lower vel_lim and increase T",
+        "T": 0.65,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.2
+    },
+    {
+        "instruction": "The scent of smoke, change direction.",
+        "reason": "quick pace to change direction, moderate T and vel_lim",
+        "T": 0.4,
+        "gait_phase_offsets": [0.0, 0.5, 0.0, 0.5],
+        "vel_lim": 0.7
+    },
+    {
+        "instruction": "glide effortlessly like a lynx",
+        "reason": "smooth gallop with moderate T for effortless movement",
+        "T": 0.5,
+        "gait_phase_offsets": [0.0, 0.2, 0.7, 0.5],
+        "vel_lim": 0.9
+    },
+    {
+        "instruction": "swagger confidently like a peacock",
+        "reason": "strut gait with moderate T and vel_lim for confident movement",
+        "T": 0.5,
+        "gait_phase_offsets": [0.0, 0.5, 0.0, 0.5],
+        "vel_lim": 0.5
+    },
+    {
+        "instruction": "gallop with grace",
+        "reason": "graceful gallop with moderate T and high vel_lim",
+        "T": 0.5,
+        "gait_phase_offsets": [0.0, 0.2, 0.7, 0.5],
+        "vel_lim": 1.0
+    },
+    {
+        "instruction": "flit quickly like a chipmunk",
+        "reason": "quick pace with low T and high vel_lim",
+        "T": 0.3,
+        "gait_phase_offsets": [0.0, 0.5, 0.0, 0.5],
+        "vel_lim": 1.2
+    },
+    {
+        "instruction": "lumber heavily like a buffalo",
+        "reason": "heavy trot with high T and low vel_lim",
+        "T": 0.7,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.2
+    },
+    {
+        "instruction": "skedaddle away",
+        "reason": "quick trot with low T and high vel_lim to move away fast",
+        "T": 0.3,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 1.3
+    },
+    {
+        "instruction": "stroll casually",
+        "reason": "slow trot with higher T and low vel_lim for casual movement",
+        "T": 0.6,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.3
+    },
+    {
+        "instruction": "A steep cliff, stop and observe.",
+        "reason": "stop completely to observe",
+        "T": 0.4,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.0
+    },
+    {
+        "instruction": "hop lightly like a frog",
+        "reason": "pronk gait with moderate T and vel_lim for light hopping",
+        "T": 0.5,
+        "gait_phase_offsets": [0.0, 0.0, 0.0, 0.0],
+        "vel_lim": 0.6
+    },
+    {
+        "instruction": "trudge through the mud",
+        "reason": "slow pace with high T to move steadily through mud",
+        "T": 0.7,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.2
+    },
+    {
+        "instruction": "bound with grace like a puma",
+        "reason": "graceful bound with moderate T and high vel_lim",
+        "T": 0.5,
+        "gait_phase_offsets": [0.0, 0.0, 0.5, 0.5],
+        "vel_lim": 1.1
+    },
+    {
+        "instruction": "A field of tall reeds, watch your step.",
+        "reason": "careful trot with moderate T and low vel_lim",
+        "T": 0.55,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.4
+    },
+    {
+        "instruction": "sprint to the finish line",
+        "reason": "fast pace with low T and high vel_lim for sprinting",
+        "T": 0.3,
+        "gait_phase_offsets": [0.0, 0.5, 0.0, 0.5],
+        "vel_lim": 1.5
+    },
+    {
+        "instruction": "A sandy dune, shift your weight.",
+        "reason": "slow trot with high T to maintain balance on sand",
+        "T": 0.65,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.3
+    },
+    {
+        "instruction": "advance cautiously",
+        "reason": "slow pace with moderate T for cautious movement",
+        "T": 0.6,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.3
+    },
+    {
+        "instruction": "A field of poppies, avoid disturbing them.",
+        "reason": "gentle trot with moderate T and low vel_lim",
+        "T": 0.6,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.3
+    },
+    {
+        "instruction": "skip with glee",
+        "reason": "bounding gait with moderate T for joyful skipping",
+        "T": 0.5,
+        "gait_phase_offsets": [0.0, 0.0, 0.5, 0.5],
+        "vel_lim": 0.8
+    },
+    {
+        "instruction": "prance joyfully like a colt",
+        "reason": "high energy trot with moderate T and vel_lim",
+        "T": 0.5,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.9
+    },
+    {
+        "instruction": "canter briskly like a zebra",
+        "reason": "brisk gallop with moderate T and high vel_lim",
+        "T": 0.5,
+        "gait_phase_offsets": [0.0, 0.2, 0.7, 0.5],
+        "vel_lim": 1.1
+    },
+    {
+        "instruction": "The sound of a predator, change direction.",
+        "reason": "quick pace to change direction, moderate T and vel_lim",
+        "T": 0.4,
+        "gait_phase_offsets": [0.0, 0.5, 0.0, 0.5],
+        "vel_lim": 0.8
+    },
+    {
+        "instruction": "A busy marketplace, navigate through the crowd.",
+        "reason": "slow pace with moderate T for careful navigation",
+        "T": 0.6,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.3
+    },
+    {
+        "instruction": "sneak with stealth",
+        "reason": "slow pace with high T to minimize noise",
+        "T": 0.65,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.2
+    },
+    {
+        "instruction": "The morning mist, visibility is low.",
+        "reason": "cautious trot with moderate T and lower vel_lim",
+        "T": 0.6,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.4
+    },
+    {
+        "instruction": "A herd of deer nearby, move stealthily.",
+        "reason": "slow pace with high T to minimize noise",
+        "T": 0.65,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.2
+    },
+    {
+        "instruction": "reduce your noise",
+        "reason": "slow pace with high T to minimize noise",
+        "T": 0.65,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.2
+    },
+    {
+        "instruction": "prance with energy like a young horse",
+        "reason": "high energy trot with moderate T and vel_lim",
+        "T": 0.5,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 1.0
+    },
+    {
+        "instruction": "The ground is dry and cracked, avoid sharp edges.",
+        "reason": "slow trot with moderate T to carefully navigate terrain",
+        "T": 0.6,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.3
+    },
+    {
+        "instruction": "trot leisurely like a pig",
+        "reason": "slow trot with high T and low vel_lim for leisurely movement",
+        "T": 0.65,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.3
+    },
+    {
+        "instruction": "strut with style like an ostrich",
+        "reason": "stylish trot with moderate T and vel_lim",
+        "T": 0.5,
+        "gait_phase_offsets": [0.0, 0.5, 0.0, 0.5],
+        "vel_lim": 0.5
+    },
+    {
+        "instruction": "hop with a spring",
+        "reason": "pronk gait with moderate T for springy hop",
+        "T": 0.5,
+        "gait_phase_offsets": [0.0, 0.0, 0.0, 0.0],
+        "vel_lim": 0.7
+    },
+    {
+        "instruction": "trek through the woods",
+        "reason": "steady pace with moderate T for stable trekking",
+        "T": 0.55,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.5
+    },
+    {
+        "instruction": "The rain is pouring, find shelter.",
+        "reason": "quick trot to reach shelter, low T and moderate vel_lim",
+        "T": 0.4,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.8
+    },
+    {
+        "instruction": "creep with caution",
+        "reason": "slow pace with high T to move carefully",
+        "T": 0.65,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.2
+    },
+    {
+        "instruction": "pace slowly and quietly",
+        "reason": "slow pace with high T to minimize noise",
+        "T": 0.65,
+        "gait_phase_offsets": [0.0, 0.5, 0.0, 0.5],
+        "vel_lim": 0.2
+    },
+    {
+        "instruction": "A sudden incline ahead, adjust your pace.",
+        "reason": "moderate T for careful movement on incline",
+        "T": 0.6,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.4
+    },
+    {
+        "instruction": "dart nimbly like a mongoose",
+        "reason": "quick pace with low T and high vel_lim for nimble movement",
+        "T": 0.3,
+        "gait_phase_offsets": [0.0, 0.5, 0.0, 0.5],
+        "vel_lim": 1.3
+    },
+    {
+        "instruction": "let's be loud!",
+        "reason": "high energy trot with low T and high vel_lim",
+        "T": 0.3,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 1.5
+    },
+    {
+        "instruction": "The sun is scorching, seek shade.",
+        "reason": "quick trot with moderate T and vel_lim to reach shade",
+        "T": 0.4,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.8
+    },
+    {
+        "instruction": "trot with high frequency",
+        "reason": "high frequency trot, low T and moderate vel_lim",
+        "T": 0.3,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.7
+    },
+    {
+        "instruction": "A stream of ants, avoid stepping on them.",
+        "reason": "careful trot with moderate T and low vel_lim",
+        "T": 0.6,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.3
+    },
+    {
+        "instruction": "hurry in haste",
+        "reason": "quick trot with low T and high vel_lim",
+        "T": 0.3,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 1.3
+    },
+    {
+        "instruction": "bolt without hesitation",
+        "reason": "fast pace with low T and high vel_lim for swift movement",
+        "T": 0.3,
+        "gait_phase_offsets": [0.0, 0.5, 0.0, 0.5],
+        "vel_lim": 1.5
+    },
+    {
+        "instruction": "bound with enthusiasm",
+        "reason": "energetic bound with moderate T and high vel_lim",
+        "T": 0.5,
+        "gait_phase_offsets": [0.0, 0.0, 0.5, 0.5],
+        "vel_lim": 1.2
+    },
+    {
+        "instruction": "paddle with grace like a swan",
+        "reason": "smooth trot with moderate T and vel_lim for graceful movement",
+        "T": 0.5,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.6
+    },
+    {
+        "instruction": "meander lazily like a koala",
+        "reason": "slow and relaxed pace, high T for less frequent steps",
+        "T": 0.7,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.2
+    },
+    {
+        "instruction": "plod along slowly",
+        "reason": "steady and slow pace, increase T for stability",
+        "T": 0.65,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.25
+    },
+    {
+        "instruction": "hustle efficiently like a beaver",
+        "reason": "efficient trot with moderate T and higher vel_lim for quick movements",
+        "T": 0.4,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.8
+    },
+    {
+        "instruction": "A dense fog, rely on other senses.",
+        "reason": "slow and cautious trot to navigate with limited visibility",
+        "T": 0.6,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.3
+    },
+    {
+        "instruction": "It's a dense forest, maneuver around trees.",
+        "reason": "adaptable trot for navigating obstacles with moderate speed",
+        "T": 0.5,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.5
+    },
+    {
+        "instruction": "sneak up quietly",
+        "reason": "slow and quiet gait, increase T to minimize noise",
+        "T": 0.7,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.2
+    },
+    {
+        "instruction": "trudge slowly like an ox",
+        "reason": "heavy and slow gait, increase T for stability",
+        "T": 0.7,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.2
+    },
+    {
+        "instruction": "A shallow stream, step lightly.",
+        "reason": "light and careful gait, moderate T for controlled steps",
+        "T": 0.55,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.4
+    },
+    {
+        "instruction": "skulk with stealth like a lynx",
+        "reason": "silent and stealthy gait, high T to minimize noise",
+        "T": 0.7,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.2
+    },
+    {
+        "instruction": "A narrow ridge, maintain your balance.",
+        "reason": "careful and balanced trot with moderate T",
+        "T": 0.6,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.3
+    },
+    {
+        "instruction": "roll playfully like a seal",
+        "reason": "playful gait with moderate T for agility",
+        "T": 0.5,
+        "gait_phase_offsets": [0.0, 0.2, 0.7, 0.5],
+        "vel_lim": 0.6
+    },
+    {
+        "instruction": "scamper quickly like a ferret",
+        "reason": "quick and agile trot, lower T for high frequency",
+        "T": 0.3,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 1.2
+    },
+    {
+        "instruction": "march with purpose like an elephant",
+        "reason": "steady and purposeful trot with moderate T",
+        "T": 0.55,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.5
+    },
+    {
+        "instruction": "prance like a playful lamb",
+        "reason": "playful and bouncy gait with moderate T",
+        "T": 0.5,
+        "gait_phase_offsets": [0.0, 0.0, 0.0, 0.0],
+        "vel_lim": 0.6
+    },
+    {
+        "instruction": "A field of clover, step softly.",
+        "reason": "soft and gentle trot with moderate T",
+        "T": 0.55,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.3
+    },
+    {
+        "instruction": "proceed with caution",
+        "reason": "cautious and steady trot with high T",
+        "T": 0.65,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.25
+    },
+    {
+        "instruction": "strut with pride",
+        "reason": "confident and steady trot with moderate T",
+        "T": 0.5,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.4
+    },
+    {
+        "instruction": "The sound of a distant howl, stay cautious.",
+        "reason": "slow and cautious trot, increase T for awareness",
+        "T": 0.65,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.3
+    },
+    {
+        "instruction": "dash with speed like a greyhound",
+        "reason": "fast and efficient gait, low T and high vel_lim",
+        "T": 0.3,
+        "gait_phase_offsets": [0.0, 0.2, 0.7, 0.5],
+        "vel_lim": 1.5
+    },
+    {
+        "instruction": "hurry along",
+        "reason": "quick trot with moderate T and higher vel_lim",
+        "T": 0.4,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.9
+    },
+    {
+        "instruction": "A steep uphill climb, conserve your energy.",
+        "reason": "slow and energy-efficient gait, increase T for stability",
+        "T": 0.65,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.3
+    },
+    {
+        "instruction": "A field of corn, navigate the rows.",
+        "reason": "adaptive trot, moderate T for maneuverability",
+        "T": 0.55,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.4
+    },
+    {
+        "instruction": "stroll gently like a giraffe",
+        "reason": "gentle and slow gait, increase T for stability",
+        "T": 0.7,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.25
+    },
+    {
+        "instruction": "A steep descent, control your speed.",
+        "reason": "slow and controlled trot, increase T for stability",
+        "T": 0.65,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.3
+    },
+    {
+        "instruction": "traipse lightly like a deer",
+        "reason": "light and agile trot, moderate T for smooth steps",
+        "T": 0.5,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.5
+    },
+    {
+        "instruction": "saunter nonchalantly",
+        "reason": "relaxed and easy-going trot, increase T for leisurely pace",
+        "T": 0.65,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.3
+    },
+    {
+        "instruction": "prance with finesse",
+        "reason": "elegant and agile gait, moderate T for smooth movement",
+        "T": 0.5,
+        "gait_phase_offsets": [0.0, 0.0, 0.0, 0.0],
+        "vel_lim": 0.6
+    },
+    {
+        "instruction": "oh no! catch that thief running!",
+        "reason": "fast and aggressive gait, low T and high vel_lim",
+        "T": 0.3,
+        "gait_phase_offsets": [0.0, 0.2, 0.7, 0.5],
+        "vel_lim": 1.5
+    },
+    {
+        "instruction": "A strong wind is blowing, maintain balance.",
+        "reason": "steady and balanced trot, moderate T for stability",
+        "T": 0.6,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.3
+    },
+    {
+        "instruction": "A narrow fence, leap over it.",
+        "reason": "bound gait with high T for jumping over obstacles",
+        "T": 0.7,
+        "gait_phase_offsets": [0.0, 0.0, 0.5, 0.5],
+        "vel_lim": 0.8
+    },
+    {
+        "instruction": "A herd of cattle crossing, wait patiently.",
+        "reason": "stop and wait, set vel_lim to 0",
+        "T": 0.5,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0
+    },
+    {
+        "instruction": "A thick fog, visibility is poor.",
+        "reason": "slow and cautious trot, increase T for careful movement",
+        "T": 0.65,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.3
+    },
+    {
+        "instruction": "wander with wonder",
+        "reason": "curious and slow trot, increase T for leisurely pace",
+        "T": 0.65,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.3
+    },
+    {
+        "instruction": "wander aimlessly",
+        "reason": "random and slow trot, increase T for leisurely pace",
+        "T": 0.65,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.3
+    },
+    {
+        "instruction": "skitter softly",
+        "reason": "light and quick trot, moderate T for soft steps",
+        "T": 0.5,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.4
+    },
+    {
+        "instruction": "The sound of a car engine, stay hidden.",
+        "reason": "slow and quiet trot, increase T for minimizing noise",
+        "T": 0.7,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.2
+    },
+    {
+        "instruction": "gallop with strength",
+        "reason": "powerful gallop, increase T for flying phase and high vel_lim",
+        "T": 0.6,
+        "gait_phase_offsets": [0.0, 0.2, 0.7, 0.5],
+        "vel_lim": 1.2
+    },
+    {
+        "instruction": "hustle with haste",
+        "reason": "quick trot with low T and high vel_lim",
+        "T": 0.35,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 1.0
+    },
+    {
+        "instruction": "A field of tall grass, watch for hidden obstacles.",
+        "reason": "careful and adaptive trot, moderate T for maneuverability",
+        "T": 0.55,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.4
+    },
+    {
+        "instruction": "saunter casually like a bear",
+        "reason": "casual and relaxed trot, increase T for leisurely pace",
+        "T": 0.65,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.3
+    },
+    {
+        "instruction": "creep silently like a fox",
+        "reason": "silent and stealthy trot, high T to minimize noise",
+        "T": 0.7,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.2
+    },
+    {
+        "instruction": "canter gently",
+        "reason": "gentle trot with moderate T for smooth movement",
+        "T": 0.55,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.4
+    },
+    {
+        "instruction": "edge forward",
+        "reason": "slow and cautious trot for careful movement",
+        "T": 0.65,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.3
+    },
+    {
+        "instruction": "romp vigorously like a puppy",
+        "reason": "playful and energetic gait, moderate T for agility",
+        "T": 0.5,
+        "gait_phase_offsets": [0.0, 0.2, 0.7, 0.5],
+        "vel_lim": 0.8
+    },
+    {
+        "instruction": "glide with elegance",
+        "reason": "elegant trot with moderate T for smooth and graceful movement",
+        "T": 0.55,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.4
+    },
+    {
+        "instruction": "A narrow gap between rocks, squeeze through.",
+        "reason": "slow and cautious trot for careful maneuvering",
+        "T": 0.65,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.3
+    },
+    {
+        "instruction": "A flock of birds nearby, move quietly.",
+        "reason": "slow and quiet trot, increase T to minimize noise",
+        "T": 0.7,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.2
+    },
+    {
+        "instruction": "strut proudly like a turkey",
+        "reason": "confident and steady trot, moderate T for balanced movement",
+        "T": 0.5,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.4
+    },
+    {
+        "instruction": "bound with excitement like a young dog",
+        "reason": "energetic bound gait, moderate T for playful movement",
+        "T": 0.5,
+        "gait_phase_offsets": [0.0, 0.0, 0.5, 0.5],
+        "vel_lim": 0.8
+    },
+    {
+        "instruction": "The sound of a babbling brook, approach with care.",
+        "reason": "slow and cautious trot, increase T for careful movement",
+        "T": 0.65,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.3
+    },
+    {
+        "instruction": "paddle smoothly like an otter",
+        "reason": "simulate smooth paddling with low vel_lim and moderate T for fluid motion",
+        "T": 0.5,
+        "gait_phase_offsets": [0.0, 0.5, 0.25, 0.75],
+        "vel_lim": 0.4
+    },
+    {
+        "instruction": "sidle up quietly",
+        "reason": "use a quiet pace with high T for minimal noise",
+        "T": 0.65,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.3
+    },
+    {
+        "instruction": "march with discipline",
+        "reason": "use a trot gait with moderate T and vel_lim for disciplined marching",
+        "T": 0.5,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.6
+    },
+    {
+        "instruction": "jog with rhythm",
+        "reason": "use a rhythmic trot with moderate T and vel_lim for a steady jog",
+        "T": 0.45,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.8
+    },
+    {
+        "instruction": "leap with power",
+        "reason": "use a bound gait with high T for powerful leaps",
+        "T": 0.7,
+        "gait_phase_offsets": [0.0, 0.0, 0.5, 0.5],
+        "vel_lim": 1.0
+    },
+    {
+        "instruction": "The scent of food, approach slowly.",
+        "reason": "use a cautious trot with high T for a slow approach",
+        "T": 0.6,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.3
+    },
+    {
+        "instruction": "skip playfully like a young goat",
+        "reason": "use a playful pronk gait with moderate T for skipping",
+        "T": 0.5,
+        "gait_phase_offsets": [0.0, 0.0, 0.0, 0.0],
+        "vel_lim": 0.6
+    },
+    {
+        "instruction": "ramble leisurely like a yak",
+        "reason": "use a slow pace with high T for a leisurely ramble",
+        "T": 0.7,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.3
+    },
+    {
+        "instruction": "waddle with charm like a penguin",
+        "reason": "use a pronk gait with high T and low vel_lim for waddling",
+        "T": 0.65,
+        "gait_phase_offsets": [0.0, 0.0, 0.0, 0.0],
+        "vel_lim": 0.2
+    },
+    {
+        "instruction": "amble along",
+        "reason": "use a slow trot gait with high T for ambling",
+        "T": 0.6,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.4
+    },
+    {
+        "instruction": "canter confidently like a pony",
+        "reason": "use a gallop gait with moderate T for a confident canter",
+        "T": 0.5,
+        "gait_phase_offsets": [0.0, 0.2, 0.7, 0.5],
+        "vel_lim": 0.8
+    },
+    {
+        "instruction": "A narrow creek, jump across.",
+        "reason": "use a bound gait with moderate T for jumping",
+        "T": 0.55,
+        "gait_phase_offsets": [0.0, 0.0, 0.5, 0.5],
+        "vel_lim": 1.0
+    },
+    {
+        "instruction": "A stretch of muddy ground, lift your feet higher.",
+        "reason": "use a high stepping trot with moderate T for muddy terrain",
+        "T": 0.55,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.5
+    },
+    {
+        "instruction": "The sun is directly overhead, rest in the shade.",
+        "reason": "stop movement completely for resting",
+        "T": 0.5,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.0
+    },
+    {
+        "instruction": "flounce with flair like a flamingo",
+        "reason": "use a high stepping pronk with high T for flouncing",
+        "T": 0.65,
+        "gait_phase_offsets": [0.0, 0.0, 0.0, 0.0],
+        "vel_lim": 0.5
+    },
+    {
+        "instruction": "tiptoe silently",
+        "reason": "use a slow pace with high T for silent movement",
+        "T": 0.7,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.2
+    },
+    {
+        "instruction": "A busy street ahead, wait for the signal.",
+        "reason": "stop movement completely for safety",
+        "T": 0.5,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.0
+    },
+    {
+        "instruction": "stride confidently",
+        "reason": "use a trot gait with moderate T for confident striding",
+        "T": 0.4,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.9
+    },
+    {
+        "instruction": "dash suddenly like a deer",
+        "reason": "use a gallop gait with low T and high vel_lim for sudden dashing",
+        "T": 0.3,
+        "gait_phase_offsets": [0.0, 0.2, 0.7, 0.5],
+        "vel_lim": 1.5
+    },
+    {
+        "instruction": "A patch of moss, it's slippery.",
+        "reason": "use a cautious trot with high T for careful movement",
+        "T": 0.6,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.3
+    },
+    {
+        "instruction": "A strong river current, brace yourself.",
+        "reason": "use a stable trot gait with moderate T for stability",
+        "T": 0.5,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.5
+    },
+    {
+        "instruction": "leap with joy like a gazelle",
+        "reason": "use a bound gait with moderate T for joyful leaping",
+        "T": 0.55,
+        "gait_phase_offsets": [0.0, 0.0, 0.5, 0.5],
+        "vel_lim": 1.0
+    },
+    {
+        "instruction": "lunge with purpose",
+        "reason": "use a gallop gait with moderate T for purposeful lunging",
+        "T": 0.5,
+        "gait_phase_offsets": [0.0, 0.2, 0.7, 0.5],
+        "vel_lim": 1.0
+    },
+    {
+        "instruction": "dash with determination",
+        "reason": "use a gallop gait with low T and high vel_lim for determined dashing",
+        "T": 0.3,
+        "gait_phase_offsets": [0.0, 0.2, 0.7, 0.5],
+        "vel_lim": 1.5
+    },
+    {
+        "instruction": "roam freely like a wild horse",
+        "reason": "use a gallop gait with moderate T for free roaming",
+        "T": 0.5,
+        "gait_phase_offsets": [0.0, 0.2, 0.7, 0.5],
+        "vel_lim": 0.8
+    },
+    {
+        "instruction": "skedaddle quickly like a weasel",
+        "reason": "use a rapid trot with low T for quick skedaddling",
+        "T": 0.35,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 1.2
+    },
+    {
+        "instruction": "The morning sun rises, casting long shadows.",
+        "reason": "use a relaxed trot with moderate T for morning wandering",
+        "T": 0.5,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.5
+    },
+    {
+        "instruction": "sprint fiercely like a wildcat",
+        "reason": "use a gallop gait with low T and high vel_lim for fierce sprinting",
+        "T": 0.3,
+        "gait_phase_offsets": [0.0, 0.2, 0.7, 0.5],
+        "vel_lim": 1.5
+    },
+    {
+        "instruction": "slink with caution like a fox",
+        "reason": "use a cautious trot with high T for careful slinking",
+        "T": 0.6,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.3
+    },
+    {
+        "instruction": "The evening breeze, adjust your pace.",
+        "reason": "use a relaxed trot with moderate T for evening strolling",
+        "T": 0.5,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.4
+    },
+    {
+        "instruction": "creep closer",
+        "reason": "use a slow pace with high T for silent creeping",
+        "T": 0.65,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.2
+    },
+    {
+        "instruction": "A narrow path along the cliff, stay focused.",
+        "reason": "use a focused trot with moderate T for stability",
+        "T": 0.5,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.4
+    },
+    {
+        "instruction": "prance with enthusiasm like a lamb",
+        "reason": "use a playful pronk gait with moderate T for prancing",
+        "T": 0.5,
+        "gait_phase_offsets": [0.0, 0.0, 0.0, 0.0],
+        "vel_lim": 0.6
+    },
+    {
+        "instruction": "spring into action like a leopard",
+        "reason": "use a gallop gait with low T for quick springing",
+        "T": 0.35,
+        "gait_phase_offsets": [0.0, 0.2, 0.7, 0.5],
+        "vel_lim": 1.4
+    },
+    {
+        "instruction": "scurry rapidly like a rat",
+        "reason": "use a rapid trot with low T for quick scurrying",
+        "T": 0.35,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 1.0
+    },
+    {
+        "instruction": "bound with vigor",
+        "reason": "use a bound gait with moderate T for vigorous bounding",
+        "T": 0.55,
+        "gait_phase_offsets": [0.0, 0.0, 0.5, 0.5],
+        "vel_lim": 1.2
+    },
+    {
+        "instruction": "A patch of quicksand, backtrack immediately.",
+        "reason": "stop and reverse movement for safety",
+        "T": 0.5,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.0
+    },
+    {
+        "instruction": "scuttle with speed like a crab",
+        "reason": "use a rapid pace gait with low T for quick scuttling",
+        "T": 0.35,
+        "gait_phase_offsets": [0.0, 0.3, 0.0, 0.3],
+        "vel_lim": 1.0
+    },
+    {
+        "instruction": "trot with poise",
+        "reason": "use a standard trot gait with moderate T for poise",
+        "T": 0.45,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.6
+    },
+    {
+        "instruction": "A riverbank approaches, watch your footing.",
+        "reason": "use a cautious trot with high T for careful footing",
+        "T": 0.6,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.3
+    },
+    {
+        "instruction": "scurry quickly",
+        "reason": "use a rapid trot with low T for quick scurrying",
+        "T": 0.35,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 1.0
+    },
+    {
+        "instruction": "slink quietly like a jaguar",
+        "reason": "use a cautious trot with high T for silent slinking",
+        "T": 0.6,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.3
+    },
+    {
+        "instruction": "A puddle of water, avoid splashing.",
+        "reason": "use a careful trot with high T for minimal splash",
+        "T": 0.65,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.2
+    },
+    {
+        "instruction": "glide over snow like a polar bear",
+        "reason": "use a slow pace with high T for smooth gliding",
+        "T": 0.7,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.3
+    },
+    {
+        "instruction": "amble slowly like a sheep",
+        "reason": "use a slow trot gait with high T for leisurely ambling",
+        "T": 0.65,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.3
+    },
+    {
+        "instruction": "A patch of nettles, keep your distance.",
+        "reason": "stop movement completely to avoid nettles",
+        "T": 0.5,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.0
+    },
+    {
+        "instruction": "A narrow dirt path, maintain a steady pace.",
+        "reason": "use a steady trot with moderate T for stability",
+        "T": 0.5,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.5
+    },
+    {
+        "instruction": "A busy construction site, avoid loud noises.",
+        "reason": "use a slow pace with high T for minimal noise",
+        "T": 0.7,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.2
+    },
+    {
+        "instruction": "lope smoothly like a gazelle",
+        "reason": "use a smooth gallop gait with moderate T for lope motion",
+        "T": 0.5,
+        "gait_phase_offsets": [0.0, 0.2, 0.7, 0.5],
+        "vel_lim": 0.8
+    },
+    {
+        "instruction": "sprint with energy",
+        "reason": "use a gallop gait with low T and high vel_lim for energetic sprinting",
+        "T": 0.3,
+        "gait_phase_offsets": [0.0, 0.2, 0.7, 0.5],
+        "vel_lim": 1.5
+    },
+    {
+        "instruction": "A narrow alleyway, proceed with caution.",
+        "reason": "slow and careful trot to maintain stability and avoid obstacles",
+        "T": 0.55,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.3
+    },
+    {
+        "instruction": "stomp with authority",
+        "reason": "pronking with high T for strong, synchronized footfalls",
+        "T": 0.6,
+        "gait_phase_offsets": [0.0, 0.0, 0.0, 0.0],
+        "vel_lim": 0.8
+    },
+    {
+        "instruction": "A narrow ledge, watch your balance.",
+        "reason": "slow trot with increased T for stability and balance",
+        "T": 0.6,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.2
+    },
+    {
+        "instruction": "saunter with ease like a moose",
+        "reason": "relaxed pace with moderate T and vel_lim for a smooth and easy gait",
+        "T": 0.5,
+        "gait_phase_offsets": [0.0, 0.5, 0.0, 0.5],
+        "vel_lim": 0.5
+    },
+    {
+        "instruction": "tell me what a pace looks like",
+        "reason": "pace gait with synchronous left/right movement",
+        "T": 0.4,
+        "gait_phase_offsets": [0.0, 0.5, 0.0, 0.5],
+        "vel_lim": 0.6
+    },
+    {
+        "instruction": "coast along like a pelican",
+        "reason": "smooth bound gait for gliding motion, moderate T and vel_lim",
+        "T": 0.5,
+        "gait_phase_offsets": [0.0, 0.0, 0.5, 0.5],
+        "vel_lim": 0.7
+    },
+    {
+        "instruction": "hustle with urgency",
+        "reason": "fast trot with low T and high vel_lim for quick movement",
+        "T": 0.3,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 1.2
+    },
+    {
+        "instruction": "Loose gravel on the path, step carefully.",
+        "reason": "slow bound with increased T to maintain stability on loose terrain",
+        "T": 0.6,
+        "gait_phase_offsets": [0.0, 0.0, 0.5, 0.5],
+        "vel_lim": 0.3
+    },
+    {
+        "instruction": "A small pond, avoid making ripples.",
+        "reason": "gentle pronk to minimize impact on water surface",
+        "T": 0.55,
+        "gait_phase_offsets": [0.0, 0.0, 0.0, 0.0],
+        "vel_lim": 0.2
+    },
+    {
+        "instruction": "skip energetically like a squirrel",
+        "reason": "energetic bound with moderate T for playful movement",
+        "T": 0.45,
+        "gait_phase_offsets": [0.0, 0.0, 0.5, 0.5],
+        "vel_lim": 0.9
+    },
+    {
+        "instruction": "ripple through water like a platypus",
+        "reason": "smooth pronking with moderate T for gentle water movement",
+        "T": 0.5,
+        "gait_phase_offsets": [0.0, 0.0, 0.0, 0.0],
+        "vel_lim": 0.4
+    },
+    {
+        "instruction": "pace with patience",
+        "reason": "slow pace with moderate T for patient, steady movement",
+        "T": 0.5,
+        "gait_phase_offsets": [0.0, 0.5, 0.0, 0.5],
+        "vel_lim": 0.3
+    },
+    {
+        "instruction": "waddle slowly like a penguin",
+        "reason": "slow pace with increased T to mimic a penguin's waddle",
+        "T": 0.6,
+        "gait_phase_offsets": [0.0, 0.5, 0.0, 0.5],
+        "vel_lim": 0.2
+    },
+    {
+        "instruction": "crawl carefully",
+        "reason": "very slow pronking with high T for careful crawling",
+        "T": 0.7,
+        "gait_phase_offsets": [0.0, 0.0, 0.0, 0.0],
+        "vel_lim": 0.1
+    },
+    {
+        "instruction": "drift silently like an owl",
+        "reason": "smooth bound with moderate T for silent movement",
+        "T": 0.5,
+        "gait_phase_offsets": [0.0, 0.0, 0.5, 0.5],
+        "vel_lim": 0.4
+    },
+    {
+        "instruction": "A patch of wild strawberries, avoid crushing them.",
+        "reason": "slow and careful trot with increased T to avoid crushing",
+        "T": 0.6,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.25
+    },
+    {
+        "instruction": "march with pride",
+        "reason": "pronking with moderate T for proud and synchronized steps",
+        "T": 0.5,
+        "gait_phase_offsets": [0.0, 0.0, 0.0, 0.0],
+        "vel_lim": 0.6
+    },
+    {
+        "instruction": "A gentle stream, cross with care.",
+        "reason": "slow bound with increased T for careful crossing",
+        "T": 0.6,
+        "gait_phase_offsets": [0.0, 0.0, 0.5, 0.5],
+        "vel_lim": 0.3
+    },
+    {
+        "instruction": "A field of wheat, avoid crushing the stalks.",
+        "reason": "slow and careful trot with increased T to avoid crushing",
+        "T": 0.6,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.25
+    },
+    {
+        "instruction": "A field of wildflowers, tread gently.",
+        "reason": "slow and careful trot with increased T to tread gently",
+        "T": 0.6,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.25
+    },
+    {
+        "instruction": "saunter and sway",
+        "reason": "relaxed pace with moderate T and vel_lim for smooth movement",
+        "T": 0.5,
+        "gait_phase_offsets": [0.0, 0.5, 0.0, 0.5],
+        "vel_lim": 0.5
+    },
+    {
+        "instruction": "meander serenely",
+        "reason": "slow pace with increased T for serene movement",
+        "T": 0.6,
+        "gait_phase_offsets": [0.0, 0.5, 0.0, 0.5],
+        "vel_lim": 0.3
+    },
+    {
+        "instruction": "The sound of rushing water, watch your step.",
+        "reason": "slow and careful trot with increased T for cautious movement",
+        "T": 0.6,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.3
+    },
+    {
+        "instruction": "trot slowly",
+        "reason": "trot with low vel_lim",
+        "T": 0.6,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.4
+    },
+    {
+        "instruction": "A muddy embankment, secure your footing.",
+        "reason": "slow bound with increased T for secure footing on unstable terrain",
+        "T": 0.6,
+        "gait_phase_offsets": [0.0, 0.0, 0.5, 0.5],
+        "vel_lim": 0.3
+    },
+    {
+        "instruction": "lope with ease",
+        "reason": "smooth bound with moderate T for easy and relaxed movement",
+        "T": 0.5,
+        "gait_phase_offsets": [0.0, 0.0, 0.5, 0.5],
+        "vel_lim": 0.5
+    },
+    {
+        "instruction": "A field of wild garlic, avoid disturbing the growth.",
+        "reason": "slow and careful trot with increased T to avoid disturbance",
+        "T": 0.6,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.25
+    },
+    {
+        "instruction": "hustle, don't dawdle",
+        "reason": "fast trot with low T and high vel_lim for quick movement",
+        "T": 0.3,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 1.2
+    },
+    {
+        "instruction": "skitter nimbly like a lizard",
+        "reason": "fast pace with low T for nimble and quick movement",
+        "T": 0.3,
+        "gait_phase_offsets": [0.0, 0.5, 0.0, 0.5],
+        "vel_lim": 1.0
+    },
+    {
+        "instruction": "bolt suddenly like an antelope",
+        "reason": "fast gallop with low T and high vel_lim for sudden acceleration",
+        "T": 0.3,
+        "gait_phase_offsets": [0.0, 0.2, 0.7, 0.5],
+        "vel_lim": 1.5
+    },
+    {
+        "instruction": "A group of sleeping animals, move silently.",
+        "reason": "slow trot with increased T for silent movement",
+        "T": 0.65,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.2
+    },
+    {
+        "instruction": "hop with speed like a rabbit",
+        "reason": "fast bound with low T for quick hopping motion",
+        "T": 0.35,
+        "gait_phase_offsets": [0.0, 0.0, 0.5, 0.5],
+        "vel_lim": 1.0
+    },
+    {
+        "instruction": "A fallen tree blocks the way, find a detour.",
+        "reason": "slow trot with increased T to carefully navigate around obstacles",
+        "T": 0.6,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.3
+    },
+    {
+        "instruction": "slither smoothly like a snake",
+        "reason": "smooth, synchronous pace with moderate T for slithering motion",
+        "T": 0.5,
+        "gait_phase_offsets": [0.0, 0.5, 0.0, 0.5],
+        "vel_lim": 0.4
+    },
+    {
+        "instruction": "lope leisurely",
+        "reason": "slow bound with moderate T for leisurely movement",
+        "T": 0.5,
+        "gait_phase_offsets": [0.0, 0.0, 0.5, 0.5],
+        "vel_lim": 0.4
+    },
+    {
+        "instruction": "hop with joy",
+        "reason": "energetic bound with moderate T for playful hopping",
+        "T": 0.45,
+        "gait_phase_offsets": [0.0, 0.0, 0.5, 0.5],
+        "vel_lim": 0.8
+    },
+    {
+        "instruction": "A steep downhill slope, lean back slightly.",
+        "reason": "slow trot with increased T for controlled descent",
+        "T": 0.6,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.3
+    },
+    {
+        "instruction": "A narrow wooden bridge, tread carefully.",
+        "reason": "slow trot with increased T for careful and stable movement",
+        "T": 0.6,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.3
+    },
+    {
+        "instruction": "glide smoothly",
+        "reason": "smooth bound with moderate T for gliding motion",
+        "T": 0.5,
+        "gait_phase_offsets": [0.0, 0.0, 0.5, 0.5],
+        "vel_lim": 0.5
+    },
+    {
+        "instruction": "amble contentedly like a wombat",
+        "reason": "slow pace with increased T for contented movement",
+        "T": 0.6,
+        "gait_phase_offsets": [0.0, 0.5, 0.0, 0.5],
+        "vel_lim": 0.3
+    },
+    {
+        "instruction": "move in a stealthy manner like a panther",
+        "reason": "slow trot with increased T for stealthy movement",
+        "T": 0.65,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.2
+    },
+    {
+        "instruction": "The sand is soft and uneven, distribute weight evenly.",
+        "reason": "slow trot with increased T for even weight distribution",
+        "T": 0.6,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.3
+    },
+    {
+        "instruction": "A field of ice, walk flat-footed.",
+        "reason": "slow trot with increased T for stable, flat-footed movement",
+        "T": 0.6,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.3
+    },
+    {
+        "instruction": "hop with energy like a kangaroo",
+        "reason": "fast bound with low T for energetic hopping",
+        "T": 0.35,
+        "gait_phase_offsets": [0.0, 0.0, 0.5, 0.5],
+        "vel_lim": 1.0
+    },
+    {
+        "instruction": "The snow is deep, conserve energy.",
+        "reason": "slow pace with increased T to conserve energy in deep snow",
+        "T": 0.65,
+        "gait_phase_offsets": [0.0, 0.5, 0.0, 0.5],
+        "vel_lim": 0.2
+    },
+    {
+        "instruction": "A narrow gorge, proceed with care.",
+        "reason": "slow trot with increased T for careful navigation",
+        "T": 0.6,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.3
+    },
+    {
+        "instruction": "scuttle away",
+        "reason": "fast pace with low T for quick scuttling movement",
+        "T": 0.3,
+        "gait_phase_offsets": [0.0, 0.5, 0.0, 0.5],
+        "vel_lim": 1.0
+    },
+    {
+        "instruction": "A stream of clear water, watch your reflection.",
+        "reason": "slow pronk with increased T for minimal water disturbance",
+        "T": 0.6,
+        "gait_phase_offsets": [0.0, 0.0, 0.0, 0.0],
+        "vel_lim": 0.25
+    },
+    {
+        "instruction": "move with stealth",
+        "reason": "slow trot with increased T for stealthy movement",
+        "T": 0.65,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.2
+    },
+    {
+        "instruction": "plod along like a donkey",
+        "reason": "slow pace with increased T for steady, plodding movement",
+        "T": 0.6,
+        "gait_phase_offsets": [0.0, 0.5, 0.0, 0.5],
+        "vel_lim": 0.3
+    },
+    {
+        "instruction": "scuttle quickly like a mouse",
+        "reason": "quick and agile movement, low T for high frequency, high vel_lim for speed",
+        "T": 0.25,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 1.3
+    },
+    {
+        "instruction": "clop steadily like a mule",
+        "reason": "steady trot-like gait, moderate T for stability, moderate vel_lim for steadiness",
+        "T": 0.5,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.6
+    },
+    {
+        "instruction": "jog with rhythm like a zebra",
+        "reason": "rhythmic trot gait, moderate T for comfortable stride, moderate vel_lim for jogging pace",
+        "T": 0.45,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.8
+    },
+    {
+        "instruction": "The sound of a waterfall, approach slowly.",
+        "reason": "slow and cautious pace, high T for stability, low vel_lim for slow movement",
+        "T": 0.6,
+        "gait_phase_offsets": [0.0, 0.2, 0.7, 0.5],
+        "vel_lim": 0.3
+    },
+    {
+        "instruction": "frolic freely",
+        "reason": "energetic and playful movement, moderate T, moderate vel_lim for frolicking pace",
+        "T": 0.5,
+        "gait_phase_offsets": [0.0, 0.3, 0.3, 0.0],
+        "vel_lim": 0.9
+    },
+    {
+        "instruction": "gallop with all your might",
+        "reason": "powerful gallop gait, higher T for long strides, high vel_lim for maximum speed",
+        "T": 0.55,
+        "gait_phase_offsets": [0.0, 0.2, 0.7, 0.5],
+        "vel_lim": 1.5
+    },
+    {
+        "instruction": "The moonlight is your guide, walk silently.",
+        "reason": "quiet and cautious gait, high T for low step noise, low vel_lim for silent movement",
+        "T": 0.65,
+        "gait_phase_offsets": [0.0, 0.2, 0.7, 0.5],
+        "vel_lim": 0.25
+    },
+    {
+        "instruction": "The sound of rustling leaves, stay alert.",
+        "reason": "alert and cautious movement, moderate T, moderate vel_lim for readiness",
+        "T": 0.5,
+        "gait_phase_offsets": [0.0, 0.3, 0.3, 0.0],
+        "vel_lim": 0.6
+    },
+    {
+        "instruction": "shuffle slowly like a bear",
+        "reason": "slow and heavy gait, high T for stability, low vel_lim for a deliberate pace",
+        "T": 0.7,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.3
+    },
+    {
+        "instruction": "trod heavily like a rhino",
+        "reason": "heavy and deliberate gait, high T for stability, moderate vel_lim for steady movement",
+        "T": 0.6,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.5
+    },
+    {
+        "instruction": "plod determinedly like a camel",
+        "reason": "determined and steady gait, high T for stability, moderate vel_lim for sustained movement",
+        "T": 0.6,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.4
+    },
+    {
+        "instruction": "trundle with effort like a tortoise",
+        "reason": "slow and steady gait, high T for stability, low vel_lim for slow movement",
+        "T": 0.7,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.2
+    },
+    {
+        "instruction": "mosey on down",
+        "reason": "leisurely and relaxed pace, moderate T for comfortable movement, moderate vel_lim for leisure",
+        "T": 0.5,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.4
+    },
+    {
+        "instruction": "A low-hanging branch, duck under it.",
+        "reason": "cautious and low movement, high T for control, low vel_lim for careful navigation",
+        "T": 0.6,
+        "gait_phase_offsets": [0.0, 0.3, 0.3, 0.0],
+        "vel_lim": 0.3
+    },
+    {
+        "instruction": "pace steadily like a wolf",
+        "reason": "steady and efficient gait, moderate T for rhythm, moderate vel_lim for sustained movement",
+        "T": 0.45,
+        "gait_phase_offsets": [0.0, 0.5, 0.0, 0.5],
+        "vel_lim": 0.8
+    },
+    {
+        "instruction": "gallop swiftly like a horse",
+        "reason": "swift gallop gait, moderate T for speed, high vel_lim for fast movement",
+        "T": 0.5,
+        "gait_phase_offsets": [0.0, 0.2, 0.7, 0.5],
+        "vel_lim": 1.2
+    },
+    {
+        "instruction": "The grass is wet with morning dew, slow down.",
+        "reason": "cautious and slow gait, high T for stability, low vel_lim for careful movement",
+        "T": 0.65,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.3
+    },
+    {
+        "instruction": "hop at a moderate speed like a wallaby",
+        "reason": "moderate hopping gait, moderate T for rhythm, moderate vel_lim for hopping speed",
+        "T": 0.5,
+        "gait_phase_offsets": [0.0, 0.0, 0.0, 0.0],
+        "vel_lim": 0.7
+    },
+    {
+        "instruction": "edge along the path",
+        "reason": "cautious and controlled gait, high T for precision, low vel_lim for careful movement",
+        "T": 0.6,
+        "gait_phase_offsets": [0.0, 0.3, 0.3, 0.0],
+        "vel_lim": 0.3
+    },
+    {
+        "instruction": "ramble at your leisure",
+        "reason": "leisurely and relaxed pace, moderate T for comfort, moderate vel_lim for relaxed movement",
+        "T": 0.5,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.4
+    },
+    {
+        "instruction": "amble at a gentle pace like a cow",
+        "reason": "gentle and steady gait, high T for stability, low vel_lim for a gentle pace",
+        "T": 0.6,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.3
+    },
+    {
+        "instruction": "bound with energy like a hare",
+        "reason": "energetic bounding gait, moderate T for rhythm, high vel_lim for energetic movement",
+        "T": 0.5,
+        "gait_phase_offsets": [0.0, 0.0, 0.5, 0.5],
+        "vel_lim": 1.0
+    },
+    {
+        "instruction": "clamber over rocks like a mountain goat",
+        "reason": "cautious and agile gait, high T for stability, moderate vel_lim for controlled climbing",
+        "T": 0.6,
+        "gait_phase_offsets": [0.0, 0.3, 0.3, 0.0],
+        "vel_lim": 0.5
+    },
+    {
+        "instruction": "lope with rhythm",
+        "reason": "rhythmic and efficient gait, moderate T for rhythm, moderate vel_lim for smooth movement",
+        "T": 0.5,
+        "gait_phase_offsets": [0.0, 0.2, 0.7, 0.5],
+        "vel_lim": 0.8
+    },
+    {
+        "instruction": "prance elegantly like a reindeer",
+        "reason": "elegant and rhythmic gait, moderate T for grace, moderate vel_lim for prancing pace",
+        "T": 0.5,
+        "gait_phase_offsets": [0.0, 0.3, 0.3, 0.0],
+        "vel_lim": 0.7
+    },
+    {
+        "instruction": "An icy patch on the trail, grip securely.",
+        "reason": "cautious and stable gait, high T for control, low vel_lim for secure movement",
+        "T": 0.65,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.25
+    },
+    {
+        "instruction": "hustle with determination like a badger",
+        "reason": "determined and efficient gait, moderate T for rhythm, high vel_lim for hustle",
+        "T": 0.45,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 1.0
+    },
+    {
+        "instruction": "leap over obstacles",
+        "reason": "energetic and agile movement, moderate T for rhythm, high vel_lim for leaping speed",
+        "T": 0.4,
+        "gait_phase_offsets": [0.0, 0.0, 0.5, 0.5],
+        "vel_lim": 1.2
+    },
+    {
+        "instruction": "dash with speed",
+        "reason": "fast and agile gait, low T for high frequency, high vel_lim for maximum speed",
+        "T": 0.3,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 1.5
+    },
+    {
+        "instruction": "flutter quickly like a bat",
+        "reason": "quick and agile movement, low T for high frequency, high vel_lim for speed",
+        "T": 0.25,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 1.3
+    },
+    {
+        "instruction": "A patch of brambles, navigate around.",
+        "reason": "cautious and controlled movement, high T for precision, low vel_lim for careful navigation",
+        "T": 0.6,
+        "gait_phase_offsets": [0.0, 0.3, 0.3, 0.0],
+        "vel_lim": 0.3
+    },
+    {
+        "instruction": "march with precision",
+        "reason": "precise and rhythmic gait, moderate T for rhythm, moderate vel_lim for precise movement",
+        "T": 0.5,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.6
+    },
+    {
+        "instruction": "The evening chill sets in, keep warm.",
+        "reason": "steady and rhythmic gait, moderate T for rhythm, moderate vel_lim for sustained movement",
+        "T": 0.5,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.7
+    },
+    {
+        "instruction": "A narrow alley, move discreetly.",
+        "reason": "cautious and discreet movement, high T for control, low vel_lim for quiet navigation",
+        "T": 0.6,
+        "gait_phase_offsets": [0.0, 0.3, 0.3, 0.0],
+        "vel_lim": 0.3
+    },
+    {
+        "instruction": "A field of daisies, step lightly.",
+        "reason": "light and gentle gait, high T for low impact, low vel_lim for gentle movement",
+        "T": 0.6,
+        "gait_phase_offsets": [0.0, 0.3, 0.3, 0.0],
+        "vel_lim": 0.4
+    },
+    {
+        "instruction": "A thicket of thorns, avoid brushing against them.",
+        "reason": "cautious and precise movement, high T for control, low vel_lim for careful navigation",
+        "T": 0.65,
+        "gait_phase_offsets": [0.0, 0.3, 0.3, 0.0],
+        "vel_lim": 0.25
+    },
+    {
+        "instruction": "gallop with power like a bison",
+        "reason": "powerful gallop gait, moderate T for rhythm, high vel_lim for fast movement",
+        "T": 0.55,
+        "gait_phase_offsets": [0.0, 0.2, 0.7, 0.5],
+        "vel_lim": 1.4
+    },
+    {
+        "instruction": "canter briskly",
+        "reason": "brisk and rhythmic gait, moderate T for rhythm, moderate vel_lim for brisk pace",
+        "T": 0.45,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.9
+    },
+    {
+        "instruction": "bound energetically like a kangaroo",
+        "reason": "energetic bounding gait, moderate T for rhythm, high vel_lim for energetic movement",
+        "T": 0.5,
+        "gait_phase_offsets": [0.0, 0.0, 0.5, 0.5],
+        "vel_lim": 1.0
+    },
+    {
+        "instruction": "prance elegantly",
+        "reason": "elegant and rhythmic gait, moderate T for grace, moderate vel_lim for prancing pace",
+        "T": 0.5,
+        "gait_phase_offsets": [0.0, 0.3, 0.3, 0.0],
+        "vel_lim": 0.7
+    },
+    {
+        "instruction": "mimic a slow-moving tortoise",
+        "reason": "slow and deliberate gait, high T for stability, low vel_lim for slow movement",
+        "T": 0.7,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.2
+    },
+    {
+        "instruction": "scurry underfoot",
+        "reason": "quick and agile movement, low T for high frequency, high vel_lim for speed",
+        "T": 0.25,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 1.3
+    },
+    {
+        "instruction": "spring into action",
+        "reason": "quick and energetic movement, low T for high frequency, high vel_lim for rapid action",
+        "T": 0.3,
+        "gait_phase_offsets": [0.0, 0.0, 0.5, 0.5],
+        "vel_lim": 1.5
+    },
+    {
+        "instruction": "A narrow tunnel, proceed with caution.",
+        "reason": "cautious and controlled movement, high T for precision, low vel_lim for careful navigation",
+        "T": 0.65,
+        "gait_phase_offsets": [0.0, 0.3, 0.3, 0.0],
+        "vel_lim": 0.25
+    },
+    {
+        "instruction": "skulk in shadows like a bobcat",
+        "reason": "stealthy and cautious gait, high T for control, low vel_lim for quiet movement",
+        "T": 0.65,
+        "gait_phase_offsets": [0.0, 0.3, 0.3, 0.0],
+        "vel_lim": 0.25
+    },
+    {
+        "instruction": "shuffle and slide",
+        "reason": "slow and deliberate gait, high T for stability, low vel_lim for slow movement",
+        "T": 0.7,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.2
+    },
+    {
+        "instruction": "jump with excitement",
+        "reason": "energetic and agile movement, moderate T for rhythm, high vel_lim for jumping speed",
+        "T": 0.4,
+        "gait_phase_offsets": [0.0, 0.0, 0.5, 0.5],
+        "vel_lim": 1.2
+    },
+    {
+        "instruction": "The fog is thick, rely on sound and smell.",
+        "reason": "cautious and slow gait, high T for stability, low vel_lim for careful navigation",
+        "T": 0.65,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.3
+    },
+    {
+        "instruction": "lunge suddenly like a tiger",
+        "reason": "quick and powerful movement, low T for high frequency, high vel_lim for sudden action",
+        "T": 0.3,
+        "gait_phase_offsets": [0.0, 0.0, 0.5, 0.5],
+        "vel_lim": 1.5
+    },
+    {
+        "instruction": "A field of heather, tread lightly.",
+        "reason": "light and gentle gait, high T for low impact, low vel_lim for gentle movement",
+        "T": 0.6,
+        "gait_phase_offsets": [0.0, 0.3, 0.3, 0.0],
+        "vel_lim": 0.4
+    },
+    {
+        "instruction": "Crossing a narrow bridge, tread lightly.",
+        "reason": "trot with high T for careful foot placement, low vel_lim for cautious movement",
+        "T": 0.7,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.2
+    }, 
+    {
+        "instruction": "glide through trees like a gibbon",
+        "reason": "use a rotary gallop for fluid motion, moderate T for swing time, moderate vel_lim",
+        "T": 0.5,
+        "gait_phase_offsets": [0.0, 0.2, 0.7, 0.5],
+        "vel_lim": 0.6
+    },
+    {
+        "instruction": "jog lightly like a fox",
+        "reason": "use a trot for stability with moderate T and vel_lim for light jogging",
+        "T": 0.5,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.7
+    },
+    {
+        "instruction": "parry with agility",
+        "reason": "use a pronk gait for quick responsiveness, moderate T and vel_lim",
+        "T": 0.45,
+        "gait_phase_offsets": [0.0, 0.0, 0.0, 0.0],
+        "vel_lim": 0.8
+    },
+    {
+        "instruction": "hustle with vigor",
+        "reason": "use a rotary gallop for vigorous movement, lower T for quick steps, high vel_lim",
+        "T": 0.35,
+        "gait_phase_offsets": [0.0, 0.2, 0.7, 0.5],
+        "vel_lim": 1.2
+    },
+    {
+        "instruction": "step with confidence",
+        "reason": "use a trot with moderate T and vel_lim for confident stepping",
+        "T": 0.5,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.6
+    },
+    {
+        "instruction": "mosey along like an armadillo",
+        "reason": "use a pace gait for steady, slow movement, higher T for stability",
+        "T": 0.6,
+        "gait_phase_offsets": [0.0, 0.5, 0.0, 0.5],
+        "vel_lim": 0.3
+    },
+    {
+        "instruction": "shuffle forward",
+        "reason": "use a pace gait with high T for slow, deliberate movement",
+        "T": 0.65,
+        "gait_phase_offsets": [0.0, 0.5, 0.0, 0.5],
+        "vel_lim": 0.25
+    },
+    {
+        "instruction": "prowl silently like a lion",
+        "reason": "use a rotary gallop with high T for stealth, low vel_lim for silence",
+        "T": 0.7,
+        "gait_phase_offsets": [0.0, 0.2, 0.7, 0.5],
+        "vel_lim": 0.2
+    },
+    {
+        "instruction": "bound quickly!",
+        "reason": "use a bound gait with moderate T for speed, high vel_lim",
+        "T": 0.5,
+        "gait_phase_offsets": [0.0, 0.0, 0.5, 0.5],
+        "vel_lim": 1.2
+    },
+    {
+        "instruction": "waltz gracefully like a flamingo",
+        "reason": "use a pronk gait with moderate T for graceful movement, moderate vel_lim",
+        "T": 0.5,
+        "gait_phase_offsets": [0.0, 0.0, 0.0, 0.0],
+        "vel_lim": 0.5
+    },
+    {
+        "instruction": "A distant thunderstorm, seek higher ground.",
+        "reason": "use a rotary gallop for swift movement, moderate T for stability, high vel_lim",
+        "T": 0.45,
+        "gait_phase_offsets": [0.0, 0.2, 0.7, 0.5],
+        "vel_lim": 1.0
+    },
+    {
+        "instruction": "trample heavily like an elephant",
+        "reason": "use a pronk gait for heavy steps, high T for weight, moderate vel_lim",
+        "T": 0.65,
+        "gait_phase_offsets": [0.0, 0.0, 0.0, 0.0],
+        "vel_lim": 0.5
+    },
+    {
+        "instruction": "meander with ease like a koala",
+        "reason": "use a pace gait for slow, easy movement, high T for stability",
+        "T": 0.6,
+        "gait_phase_offsets": [0.0, 0.5, 0.0, 0.5],
+        "vel_lim": 0.3
+    },
+    {
+        "instruction": "leap with agility like a lynx",
+        "reason": "use a pronk gait for agile leaping, moderate T for quick jumps, high vel_lim",
+        "T": 0.45,
+        "gait_phase_offsets": [0.0, 0.0, 0.0, 0.0],
+        "vel_lim": 1.0
+    },
+    {
+        "instruction": "promenade proudly",
+        "reason": "use a trot for stable, confident movement, moderate T and vel_lim",
+        "T": 0.5,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.6
+    },
+    {
+        "instruction": "scamper quickly",
+        "reason": "use a rotary gallop for quick movement, lower T for fast steps, high vel_lim",
+        "T": 0.35,
+        "gait_phase_offsets": [0.0, 0.2, 0.7, 0.5],
+        "vel_lim": 1.2
+    },
+    {
+        "instruction": "tiptoe quietly like a raccoon",
+        "reason": "use a rotary gallop with high T for stealth, low vel_lim for quiet movement",
+        "T": 0.7,
+        "gait_phase_offsets": [0.0, 0.2, 0.7, 0.5],
+        "vel_lim": 0.2
+    },
+    {
+        "instruction": "dance lightly",
+        "reason": "use a pronk gait for light, rhythmic movement, moderate T and vel_lim",
+        "T": 0.5,
+        "gait_phase_offsets": [0.0, 0.0, 0.0, 0.0],
+        "vel_lim": 0.5
+    },
+    {
+        "instruction": "skip with delight",
+        "reason": "use a pronk gait for playful skipping, moderate T, moderate vel_lim",
+        "T": 0.45,
+        "gait_phase_offsets": [0.0, 0.0, 0.0, 0.0],
+        "vel_lim": 0.7
+    },
+    {
+        "instruction": "tiptoe quietly",
+        "reason": "use a rotary gallop with high T for stealth, low vel_lim for quiet movement",
+        "T": 0.7,
+        "gait_phase_offsets": [0.0, 0.2, 0.7, 0.5],
+        "vel_lim": 0.2
+    },
+    {
+        "instruction": "The mud is thick and sticky, lift your feet higher.",
+        "reason": "use a bound gait with high T for lifting feet higher, moderate vel_lim",
+        "T": 0.6,
+        "gait_phase_offsets": [0.0, 0.0, 0.5, 0.5],
+        "vel_lim": 0.4
+    },
+    {
+        "instruction": "A rocky shoreline, watch for slippery rocks.",
+        "reason": "use a trot with high T for careful foot placement, low vel_lim for caution",
+        "T": 0.65,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.3
+    },
+    {
+        "instruction": "sashay elegantly like a swan",
+        "reason": "use a pronk gait for elegant movement, moderate T for grace, moderate vel_lim",
+        "T": 0.5,
+        "gait_phase_offsets": [0.0, 0.0, 0.0, 0.0],
+        "vel_lim": 0.5
+    },
+    {
+        "instruction": "A fallen branch, step over it.",
+        "reason": "use a trot with moderate T for stability, moderate vel_lim for precise stepping",
+        "T": 0.5,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.4
+    },
+    {
+        "instruction": "hustle quickly like a mink",
+        "reason": "use a rotary gallop for quick movement, lower T for fast steps, high vel_lim",
+        "T": 0.35,
+        "gait_phase_offsets": [0.0, 0.2, 0.7, 0.5],
+        "vel_lim": 1.2
+    },
+    {
+        "instruction": "saunter with grace",
+        "reason": "use a pace gait for slow, graceful movement, moderate T for smoothness",
+        "T": 0.6,
+        "gait_phase_offsets": [0.0, 0.5, 0.0, 0.5],
+        "vel_lim": 0.4
+    },
+    {
+        "instruction": "The wind picks up, brace against it.",
+        "reason": "use a trot for stability, moderate T with reduced vel_lim for balance",
+        "T": 0.5,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.4
+    },
+    {
+        "instruction": "dance for me!",
+        "reason": "use a pronk gait for rhythmic movement, moderate T and vel_lim",
+        "T": 0.5,
+        "gait_phase_offsets": [0.0, 0.0, 0.0, 0.0],
+        "vel_lim": 0.6
+    },
+    {
+        "instruction": "scamper with speed like a chipmunk",
+        "reason": "use a rotary gallop for quick movement, lower T for fast steps, high vel_lim",
+        "T": 0.35,
+        "gait_phase_offsets": [0.0, 0.2, 0.7, 0.5],
+        "vel_lim": 1.2
+    },
+    {
+        "instruction": "shuffle with intent",
+        "reason": "use a pace gait with high T for deliberate movement, low vel_lim",
+        "T": 0.65,
+        "gait_phase_offsets": [0.0, 0.5, 0.0, 0.5],
+        "vel_lim": 0.25
+    },
+    {
+        "instruction": "stagger clumsily like a panda",
+        "reason": "use a bound gait with high T for clumsiness, low vel_lim for slow movement",
+        "T": 0.7,
+        "gait_phase_offsets": [0.0, 0.0, 0.5, 0.5],
+        "vel_lim": 0.2
+    },
+    {
+        "instruction": "bound very slowly please",
+        "reason": "use a bound gait with high T for slow bounding, very low vel_lim",
+        "T": 0.7,
+        "gait_phase_offsets": [0.0, 0.0, 0.5, 0.5],
+        "vel_lim": 0.1
+    },
+    {
+        "instruction": "gallop like the wind",
+        "reason": "use a rotary gallop with lower T for speed, high vel_lim for rapid movement",
+        "T": 0.35,
+        "gait_phase_offsets": [0.0, 0.2, 0.7, 0.5],
+        "vel_lim": 1.5
+    },
+    {
+        "instruction": "The sound of a human voice, stay hidden.",
+        "reason": "use a trot with high T for stealthy movement, low vel_lim for quietness",
+        "T": 0.7,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.2
+    },
+    {
+        "instruction": "hop with playfulness",
+        "reason": "use a pronk gait for playful hopping, moderate T and vel_lim",
+        "T": 0.45,
+        "gait_phase_offsets": [0.0, 0.0, 0.0, 0.0],
+        "vel_lim": 0.8
+    },
+    {
+        "instruction": "saunter with calm like a yak",
+        "reason": "use a pace gait for calm, slow movement, high T for stability",
+        "T": 0.6,
+        "gait_phase_offsets": [0.0, 0.5, 0.0, 0.5],
+        "vel_lim": 0.3
+    },
+    {
+        "instruction": "step lightly",
+        "reason": "use a trot with high T for light stepping, low vel_lim for gentleness",
+        "T": 0.7,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.3
+    },
+    {
+        "instruction": "The ground is uneven, maintain a steady rhythm.",
+        "reason": "use a trot with moderate T for stability, moderate vel_lim for steady movement",
+        "T": 0.5,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.5
+    },
+    {
+        "instruction": "A patch of wild mushrooms, avoid trampling.",
+        "reason": "use a pace gait with high T for careful foot placement, low vel_lim",
+        "T": 0.65,
+        "gait_phase_offsets": [0.0, 0.5, 0.0, 0.5],
+        "vel_lim": 0.2
+    },
+    {
+        "instruction": "shuffle your steps",
+        "reason": "use a pace gait with high T for deliberate movement, low vel_lim",
+        "T": 0.65,
+        "gait_phase_offsets": [0.0, 0.5, 0.0, 0.5],
+        "vel_lim": 0.25
+    },
+    {
+        "instruction": "glide gracefully like a cheetah",
+        "reason": "use a rotary gallop for graceful, fluid motion, moderate T and vel_lim",
+        "T": 0.5,
+        "gait_phase_offsets": [0.0, 0.2, 0.7, 0.5],
+        "vel_lim": 0.9
+    },
+    {
+        "instruction": "A rocky terrain, choose stable ground.",
+        "reason": "use a trot with high T for careful foot placement, low vel_lim for caution",
+        "T": 0.65,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.3
+    },
+    {
+        "instruction": "stride with purpose",
+        "reason": "use a rotary gallop for purposeful movement, moderate T and vel_lim",
+        "T": 0.5,
+        "gait_phase_offsets": [0.0, 0.2, 0.7, 0.5],
+        "vel_lim": 0.7
+    },
+    {
+        "instruction": "A thick carpet of leaves, avoid slipping.",
+        "reason": "use a trot with high T for careful foot placement, low vel_lim for grip",
+        "T": 0.65,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.3
+    },
+    {
+        "instruction": "stop where you are!",
+        "reason": "set vel_lim to 0 to stop immediately",
+        "T": 0.5,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.0
+    },
+    {
+        "instruction": "ramble through the field",
+        "reason": "use a trot with moderate T for a relaxed pace, moderate vel_lim",
+        "T": 0.5,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.6
+    },
+    {
+        "instruction": "A steep ravine, approach with caution.",
+        "reason": "use a trot with high T for careful foot placement, low vel_lim for caution",
+        "T": 0.65,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.3
+    },
+    {
+        "instruction": "The sun is setting, visibility is low.",
+        "reason": "use a trot with moderate T for stability, reduce vel_lim for safety",
+        "T": 0.5,
+        "gait_phase_offsets": [0.0, 0.5, 0.5, 0.0],
+        "vel_lim": 0.4
+    },
+    {
+        "instruction": "clamber like a sloth",
+        "reason": "use a bound gait for slow, deliberate movement, high T and low vel_lim",
+        "T": 0.7,
+        "gait_phase_offsets": [0.0, 0.0, 0.5, 0.5],
+        "vel_lim": 0.2
+    }
+]
