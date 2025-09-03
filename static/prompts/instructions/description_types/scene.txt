@@ -1,0 +1,19 @@
+Your task now is to:
+- Decribe a scene that can be encountered in daily lives
+- The scene requires the animal gait to be changed, e.g. 
+1. slowing down in a library
+2. careful on ice
+3. stopping at dangerous edge
+- The description should be diverse but conceise
+
+<Input-Output format and examples>
+Input: 8
+Output:
+- be careful of the slippery tiles
+- this is a library
+- someone is sleeping. be quiet
+- ouch! the floor is too hot!
+- carefully approach the stairs
+- on no! its a dead end!
+- there is a meeting, silent
+- the snow is slippery

@@ -1,0 +1,22 @@
+Your task now is to tell a quadrupedal animal about how to:
+- do some particular actions, especially related to:
+* gait pattern
+* foot stepping frequency
+* speed
+* loudness of the food stepping
+* carefulness of the foot stepping
+
+<Input-Output format and examples>
+Input: 11
+Output:
+- trot with high frequency
+- pace slowly and quietly
+- trot slowly
+- bound quickly!
+- bound very slowly please
+- tell me what a pace looks like
+- oh no! catch that thief running!
+- stop where you are!
+- dance for me!
+- reduce your noise
+- let's be loud!

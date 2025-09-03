@@ -1,0 +1,16 @@
+Your task now is to tell a quadrupedal animal about how to:
+- mimic an animal
+- sometimes define the appropriate speed: slow, fast, moderate
+- your output should be brief and concise for a short description
+
+<Input-Output format and examples>
+Input: 8
+Output:
+- let's hop like a rabbit
+- run beautifully as a horse
+- trot slowly, resembling a dog
+- frogs jump by lifting all its foot!
+- show me a hamster
+- show me how a dog run quickly
+- mimic a cat walk slowly
+- do a galloping zebra!
